@@ -1,0 +1,7 @@
+# Carpetas de dependencias
+node_modules/
+
+# Archivos de compilación de Tailwind
+dist/
+css/style.css
+css/tailwind.css

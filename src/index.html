@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <h1 class="text-center text-5xl font-bold mt-7">Login Form</h1>
+
+    <div class="flex justify-center items-center h-screen bg-indigo-600">
+      <div class="w-3xl p-8 shdow-lg bg-white rounded-lg">
+        <h1 class="text-4xl block text-center font-semibold mb-5">
+          <i class="fa-solid fa-user"></i>Login
+        </h1>
+        <hr class="mt-3" />
+        <div class="mt-3">
+          <label for="username" class="block mb-3">Username</label>
+          <input
+            type="text"
+            id="username"
+            class="border w-full text-base px-2 py-2 rounded-md focus:outline-none focus:border-indigo-700"
+            placeholder="Enter your username"
+          />
+        </div>
+        <div class="mt-3">
+          <label for="password" class="block mb-3">Password</label>
+          <input type="text" id="Password" class="border w-full text-base px-2
+          py-2 rounded-md focus:outline-none focus:border-indigo-700"
+          placeholder="Enter your password""/>
+        </div>
+        <div class="mt-4 flex justify-between items-center">
+          <div>
+            <input type="checkbox" />
+            <label for="">Remember me</label>
+          </div>
+          <div>
+            <a href="#" class="text-indigo-800 font-semibold"
+              >Forgot Password?</a
+            >
+          </div>
+        </div>
+        <div class="mt-5">
+          <button type="submit" class="border-3 border-indigo-700 bg-indigo-700 text-white p-3 rounded-md w-full font-semibold hover:bg-indigo-800">
+            Login
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
